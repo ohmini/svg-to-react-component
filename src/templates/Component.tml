@@ -1,0 +1,16 @@
+// @flow
+import * as React from 'react'
+
+import {svg} from '../svg'
+
+class ${name} extends React.PureComponent<{}> {
+  render() {
+    return (
+      <svg>
+        ${svg}
+      </svg>
+    )
+  }
+}
+
+export default svg(${name}, ${width}, ${height})
